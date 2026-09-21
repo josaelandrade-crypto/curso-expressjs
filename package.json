@@ -1,0 +1,21 @@
+{
+  "name": "curso-expressjs",
+  "version": "1.0.0",
+  "description": "Curso express.js",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Kevin Ramírez",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "dotenv": "^18.0.2",
+    "express": "^5.2.1",
+    "node": "^26.9.0"
+  }
+}
